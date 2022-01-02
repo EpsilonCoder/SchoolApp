@@ -1,0 +1,31 @@
+{
+  "schoolapp": [
+    {
+      "prenom": "cheikh",
+      "nom": "Sow",
+      "bio": "Je suis apprenant a simplon connu sous le sodonime de EpsionCoder.\nJe suis très passionné des codes informatique et j ai pour objectif ....",
+      "niveau": "Exellent",
+      "front": "70",
+      "back": "90",
+      "id": 6
+    },
+    {
+      "prenom": "Birame",
+      "nom": "Fall",
+      "bio": "Je suis apprenant a simplon connu sous le sodonime de EpsionCoder.\nJe suis très passionné des codes informatique et j ai pour objectif ....",
+      "niveau": "Fort",
+      "front": "70",
+      "back": "90",
+      "id": 9
+    },
+    {
+      "prenom": "Samba Kane ",
+      "nom": " Kane ",
+      "bio": "Je suis apprenant a simplon connu sous le sodonime de EpsionCoder.\nJe suis très passionné des codes informatique et j ai pour objectif ....",
+      "niveau": "Exellent",
+      "front": "100",
+      "back": "100",
+      "id": 10
+    }
+  ]
+}

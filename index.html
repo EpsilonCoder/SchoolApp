@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css" rel="stylesheet" />
+
+    <title>SchoolApp</title>
+</head>
+
+
+<nav class="navbar navbar-dark default-color bg-dark justify-content-between">
+    <a class="navbar-brand" href="#"><h1>SCHOOLAPP</h1></h1></a>
+        
+        <a class="btn btn-outline-white btn-sm my-0" href="listeapprenant.html">Listes des Apprenants</a>
+    </form>
+</nav>
+
+<body> 
+
+    <div class="container">
+        <div class="row">
+
+            <div class="card col-md-6 " style="margin-top:30px;">
+
+                <h5 class="card-header text-center bg-dark ">
+                    <strong class="text-white">Inscription Etudiant</strong>
+                </h5>
+                <div class="card-body px-lg-5 pt-0">
+
+                    <form class="text-left " style="color:black;" id="form">
+                        <div class="md-form">
+                            <label for="Prenom">Prenom</label>
+                            <input type="text" id="prenom" class="form-control" required>
+                        </div>
+
+                        <div class="md-form">
+                            <label for="nom">Nom</label>
+                            <input type="text" id="nom" class="form-control" required>
+                        </div>
+
+                        <div class="md-form">
+                            <label for="nom">Niveau</label>
+                            <select name="niveau" id="niveau" class="form-control" required>
+                                <option value="">--------</option>
+                                <option value="Exellent">Exellent</option>
+                                <option value="Fort">Fort</option>
+                                <option value="Faible">Faible</option>
+                            </select>
+                        </div>
+
+                        <div class="md-form">
+                            <label for="bio">Biographie</label>
+                            <textarea name="bio" id="bio" cols="30" rows="10" class="form-control" required>
+                </textarea>
+                        </div>
+
+                        <div class="md-form">
+                            <label for="front">Compétence FRONTEND en %</label>
+                            <input type="number" id="front" class="form-control" required>
+                        </div>
+
+
+                        <div class="md-form" >
+                            <label for="back">Compétence BACKEND en %</label>
+                            <input type="number" id="back" class="form-control " required>
+                        </div>
+
+                </div>
+
+                <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit"
+                    id="vld">Envoyer</button>
+
+                </form>
+
+
+            </div>
+
+            <div class="col-md-6" style="margin-top:30px;">
+                <div class="etudiant">
+                 
+
+                </div>
+
+
+                <div class="Enregister">
+                    
+                    <a class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" href="listeapprenant.html">Sauvegarder</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
+
