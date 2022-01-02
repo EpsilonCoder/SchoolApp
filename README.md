@@ -1,4 +1,4 @@
-# <center> Projet  SchoolApp  </center>
+#  Projet  SchoolApp
 
 Dans le gestion de la gestion des apprenants, Le Directeur vous demande de réaliser une application qui permet de gérer les application et leur niveau d'avancement. Ainsi en utilisation le JavaScript votre tâche est de réaliser l'application avec les fonctionnalités suivantes :
 
