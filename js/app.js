@@ -33,7 +33,6 @@ vld.addEventListener('click', () => {
 
     };
 
-
     form.addEventListener("submit", () => {
         fetch('http://localhost:3000/schoolapp', envoie)
             .then((res) => console.log(res))
@@ -44,7 +43,6 @@ vld.addEventListener('click', () => {
 
 
 })
-
 
 URL = 'http://localhost:3000/schoolapp'
 
@@ -75,7 +73,7 @@ fetch(URL)
                 <i class="fa fa-edit text-success"></i>  Editer</div>
 
                 <div class="btn" onclick="suprim(${list[i].id});"  >
-                <i class="fa fa-trash text-danger"></i>  Editer</div>
+                <i class="fa fa-trash text-danger"></i> Supprimer</div>
 
                </div>
             `;
@@ -99,6 +97,8 @@ fetch(URL)
 }
 
    function Editer(id){
+    
+   
 
     if(id == 0){
      
@@ -118,7 +118,8 @@ fetch(URL)
             front.value=data.front;
             back.value=data.back;
         }); 
-    } 
-    
+    }
+    setInterval(suprim,8000,id) 
+   
 
 }
